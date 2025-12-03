@@ -1,0 +1,39 @@
+/*1.universal selector */
+*{
+    /*border:1px solid red: */
+}
+
+/tag selector/
+h1{
+    background-color: blue;
+}
+/* id selector # */
+#a{
+    color:brown;
+    background-color: aquamarine;
+}
+/*class selector . */
+.b{
+    /*color:blue; */
+    border: 10px solid;
+}
+/group selector ./
+h1
+h2{
+    color:aqua;
+}
+/*descendesnt selector */
+div p{
+    color:azure;
+    background-color: black;
+}
+/*child selector > */
+div>p{
+    color:aquamarine;
+    background-color: beige;
+
+}
+/*attribute selector */
+button{[type ="submit"]
+
+}

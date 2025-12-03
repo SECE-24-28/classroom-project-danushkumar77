@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>CSS MCQ Quiz</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f5f5f5;
+            margin: 0;
+            padding: 0;
+        }
+
+        #header {
+            text-align: center;
+            background-color: #9920df;
+            padding: 20px;
+            color: white;
+        }
+
+        #wrapper {
+            width: 60%;
+            margin: auto;
+            background: rgb(255, 255, 255);
+            padding: 20px;
+            border-radius: 8px;
+        }
+
+        fieldset {
+            margin-bottom: 20px;
+            border: 2px solid #c4fcf8;
+            padding: 15px;
+        }
+
+        .box-example {
+            border: 2px solid rgb(52, 1, 180);
+            padding: 20px;
+            width: 300px;
+            background-color: #fff8b5;
+            margin: 10px 0;
+        }
+
+        input[type="submit"] {
+            background-color: #100101;
+            color: white;
+            padding: 10px 20px;
+            border: none;
+            cursor: pointer;
+            border-radius: 5px;
+        }
+    </style>
+</head>
+<body>
+
+    <div id="header">
+        <h1>CSS MCQ Quiz for Students</h1>
+        <p>Learn Inline, Internal and External CSS with this quiz</p>
+    </div>
+
+    <div id="wrapper">
+        <h1>Multiple Choice Questions</h1>
+
+        <form>
+            <fieldset>
+                <h2>1. Which CSS type is written inside the HTML tag?</h2>
+                <label><input type="radio" name="q1"> Internal CSS</label><br>
+                <label><input type="radio" name="q1"> External CSS</label><br>
+                <label><input type="radio" name="q1"> Inline CSS</label><br>
+                <label><input type="radio" name="q1"> None</label><br>
+            </fieldset>
+
+            <fieldset>
+                <h2>2. Which tag is used to write Internal CSS?</h2>
+                <label><input type="radio" name="q2"> head</label><br>
+                <label><input type="radio" name="q2"> style</label><br>
+                <label><input type="radio" name="q2"> script</label><br>
+                <label><input type="radio" name="q2"> css</label><br>
+            </fieldset>
+
+            <fieldset>
+                <h2>3. External CSS is added using?</h2>
+                <label><input type="radio" name="q3"> script</label><br>
+                <label><input type="radio" name="q3"> link</label><br>
+                <label><input type="radio" name="q3"> meta</label><br>
+                <label><input type="radio" name="q3"> import</label><br>
+            </fieldset>
+
+            <h1>CSS Box Model Example</h1>
+            <div class="box-example">
+                <strong>Content Area</strong><br>
+                (Padding + Border + Margin)
+            </div>
+
+            <fieldset>
+                <h2>4. Which is NOT part of the CSS Box Model?</h2>
+                <label><input type="radio" name="q4"> Margin</label><br>
+                <label><input type="radio" name="q4"> Padding</label><br>
+                <label><input type="radio" name="q4"> Border</label><br>
+                <label><input type="radio" name="q4"> Font-size</label><br>
+            </fieldset>
+
+            <fieldset>
+                <h2>5. Which position keeps the element fixed on screen?</h2>
+                <label><input type="radio" name="q5"> Relative</label><br>
+                <label><input type="radio" name="q5"> Absolute</label><br>
+                <label><input type="radio" name="q5"> Fixed</label><br>
+                <label><input type="radio" name="q5"> Static</label><br>
+            </fieldset>
+
+            <input type="submit" value="Submit" />
+        </form>
+    </div>
+
+</body>
+</html>

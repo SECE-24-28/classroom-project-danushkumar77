@@ -1,0 +1,20 @@
+flexContainer {
+    border: lpx solid red;
+    display: flex;
+    height: 90vh;
+    gap: 10 px;
+    flex-direction: column-reverse;
+    justify-content: flex-end;
+    align-items: center;
+
+}
+
+flextItem {
+    
+    background-color: yellow;
+    border: 2px solid red;
+    color: red;
+    font-size: 24px;
+    height: 60px ;
+    width: 80px;
+}

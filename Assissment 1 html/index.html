@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+    
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="author" content="Danushkumar"/>
+    <meta name="description" content="HTML practice"/>
+    <meta name="keywords" content="html, tags, mern"/>
+    <title>Document</title>
+</head>
+
+<body>
+    <h1>My HTML-only Websit </h1>
+    <h2>Simple site build using only HTML tags --no CSS</h2>
+    <ul>
+        <li><a href="#welcome">Home</li></a>
+        <li><a href="#about this page">About</li></a>
+        <li><a href="features">Features</li></a>
+        <li>Exit</li>
+    </ul>
+    <h1 id="welcome">Welcome</h1>
+    <h2>This page demonstarates layout and content using only HTML tags. Use headings, list, table, and forms to present information without CSS</h2>
+    <h1 id="about this page">About This Page</h1>
+    <h2> The page user semantic tags: header, nav,main,</h2>
+    <h1>Key Point</h1>
+    <ol>
+        <li>Readable structure for users and search engine</li>
+        <li>no external styles-browser default style only</li>
+        <li>works well for quick prototype or content focused pages</li>
+    </ol>
+
+   <h2 id="features">Features (HTML only)</h2>
+   Semantic layout
+   <dd>Clear structure using sectioning elements.</dd>
+   Accessible navigation
+   <dd>Keyboard- and screen-reader-friendly links and headings</dd>
+   Forms and tables
+   <dd>Collect input and show tabular data using plain HTML.</dd>
+   <h3>Sample Data Table</h3>
+        <table border="2">
+    <thead>
+      <tr>
+        <th>product</th>
+          <th>category</th>
+            <th>price</th>
+      </tr>
+    </thead>
+    <body>
+      <tr>
+        <td>potato chips</td>
+        <td>snacks</td>
+        <td>100</td>
+        
+      <tr>
+      <td>lays</td>
+      <td>snacks</td>
+      <td>20</td>
+      </tr>
+      
+      
+    </body>
+  </table>
+   <h2>Quick Links</h2>
+   <dl>
+          <ul>
+            <li><a href="features">Set features</li></a>
+            <li><a href="contact"> Contant us</li></a>
+            <li><a href="about this page">About this demo</li></a>
+          </ul>
+          </dl>
+     <h1 id="contact">Contact</h1> 
+     <h2>If you'd like to get in touch, fill this simple form (no styling).</h2> 
+     <fieldset>
+        <legend>contant form</legend>
+     <form action="/submit" method="post">
+        <label for="name">Name:</label>
+        <input type="text" id="name" minlength="5" maxlength="15" required><br><br>
+        <label for="email"required>Email:</label>
+        <input type="email" id="email" name="email"><br><br>
+        <label for="Message:">Message:</label>
+        <input type="text" id="Message" minlength="5" maxlength="20" required><br><br>
+        <lable for="Prefemd contant">Prefemd contant</lable><br>
+        <input type="radio" name="contact">Phone<br>
+        <input type="radio" name="contact">Email
+
+    </form>   
+    </fieldset>  
+    &copy; 2025 My HTML-only website
+
+</body>
+</html>
